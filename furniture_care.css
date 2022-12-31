@@ -1,0 +1,221 @@
+
+
+/******block_breadcrumb***** */
+._breadcrumb_checkout {
+	background: #f9f9f9;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 14px;
+	margin: 30px 0 0 0;}
+._breadcrumb_checkout .bread_content{
+	padding: 10px 0;}
+._breadcrumb_checkout i{
+	color: #636363;
+	font-size: 18px;
+	margin: 0 10px 0 0;}
+._breadcrumb_checkout ul li {
+	padding: 0 10px; }
+._breadcrumb_checkout ul li a {
+	color: #636363; }
+._breadcrumb_checkout ul li a span {
+	padding: 0 0 0 10px; }
+
+/******block_Checkout***** */
+
+.title {
+	text-align: center; margin: 30px 0 0 0; }
+.title h2 {
+	font-family: 'HurmeGeometricSans1-Light';
+	position: relative;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	display: inline-block; 
+	padding: 0 0 20px 0;}
+.title h2::before {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	top: 23px;
+	left: -120px; }
+.title h2::after {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	right: -120px;
+	top: 23px; }
+
+@media (max-width: 991.98px) {
+	.title h2::before, .title h2::after{
+		display: none;
+	}
+}
+
+/**Funituree care**/
+.funiture_top_content{
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+}
+.left_item{
+	background: url("assets/img/Furniture_care_1.jpg") no-repeat;
+	height: 508px;
+	position: relative;
+	z-index: 0;
+	margin-top: 50px;
+	text-align: center;
+	background-position: left;
+	max-width: 100%;
+}
+.right_item{
+	background: url("assets/img/Furniture_care_2.jpg") no-repeat;
+	height: 508px;
+	position: relative;
+	z-index: 0;
+	margin-top: 50px;
+	text-align: center;
+	background-position: right;
+	max-width: 100%;
+}
+.content_item{
+	font-family: 'HurmeGeometricSans1-Light';
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+	padding: 40px 80px;
+}
+.title_item{
+	font-size: 45px;
+	color: #fff;
+	font-family: 'HurmeGeometricSans1-Light';
+	padding: 140px 0 0 0;
+}
+.funiture_content p{ padding-top: 10px;}
+@media (max-width: 991.98px) {
+	.title_item{
+		padding-top: 50px;
+	}
+	.content_item{
+		padding: 10px 15px;
+	}
+}
+
+/**caring for*/
+.block_caring_for{
+	margin: 50px 0;
+	padding: 50px 50px;
+	background: #fafafa;
+	font-family: 'HurmeGeometricSans1-Light';
+}
+.title_caring{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 0 0 20px 0;
+	
+}
+.content_caring{
+	line-height: 30px;
+}
+
+.content_caring p{
+	padding: 10px 0 0 0;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 16px;
+}
+@media (max-width: 991.98px) {
+	.block_caring_for{
+		padding: 50px 15px;
+		text-align: justify;}
+}
+
+
+/**Pic funiture*/
+.pic_funiture .container {
+    padding: 0 25px;
+}
+
+.item_funiture {
+    width: 20%;
+    float: left;
+    padding: 25px;
+}
+.item_funiture p{
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 16px;
+}
+
+.pic_hover {
+  position: relative;
+  width: 100%;
+}
+
+.image_funiture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #000;
+}
+
+.pic_hover:hover .overlay {
+  opacity: 0.6;
+}
+
+.txt_quickview a{
+  color: #fff;
+  font-size: 16px;
+  font-family: 'HurmeGeometricSans1-Light';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;}
+.icon-eye{
+	font-size: 20px;
+	color: #fff;
+	margin: 0 10px 0 0;
+	position: relative;
+	top: 3px;
+	z-index: 5;}
+
+@media (max-width: 991.98px) {
+	 .container {
+        padding: 0 15px;
+    }
+
+    .pic_funiture .container {
+        padding: 0 7.5px;
+    }
+
+    .item_funiture {
+        width: 50%;
+        padding: 7.5px;
+    }
+    .item_funiture p
+    {
+        height: 60px;
+    }
+}
+
+

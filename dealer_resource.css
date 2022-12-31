@@ -1,0 +1,149 @@
+a{
+	color: #eea501;
+}
+
+.content_left_dealer_resource{
+	background: #f5f5f5;
+}
+.content_left_dealer_resource ul li{
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #000;
+	padding: 10px 0 10px 50px;
+	font-family: 'HurmeGeometricSans1-Regular';
+}
+.title {
+	text-align: center; margin: 30px 0 0 0; }
+.title h2 {
+	font-family: 'HurmeGeometricSans1-Light';
+	position: relative;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	display: inline-block; 
+	padding: 0 0 20px 0;}
+.title h2::before {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	top: 23px;
+	left: -120px; }
+.title h2::after {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: #000;
+	position: absolute;
+	right: -120px;
+	top: 23px; }
+@media(max-width: 991.98px){
+	.block_mobile {
+    display: block; }
+  .block_desktop {
+    display: none; }
+	.title h2::before, .title h2::after{
+		display: none;
+	}
+	.title h2{
+		font-size: 1.8rem;
+	}
+	
+	
+	.img_catalog{
+	border: 1px solid #636363;
+	padding: 15px;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+.img_catalog img {
+	max-width: 100%;
+}
+	
+}
+
+.main_title{
+	font-size: 20px;
+    font-family: 'HurmeGeometricSans1-Regular';
+    color: #000;
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.title_order_help{
+	font-size: 16px;
+	font-family: 'HurmeGeometricSans1-Regular';
+	color: #000;
+}
+.content_order_help{
+	font-size: 16px;
+	font-family: 'HurmeGeometricSans1-Light';
+	color: #000;
+}
+.ordering_shipping{
+	padding: 0 50px;
+}
+.ordering_help{
+	border-top: 1px solid #C5C5C5;
+	padding-top: 30px
+}
+
+/*catalog*/
+
+.img_catalog{
+	border: 1px solid #636363;
+	padding: 15px;
+	position: relative;
+	width: 232px;
+	height: 292px;
+}
+.img_catalog img {
+	max-width: 100%;
+}
+@media(min-width: 1200px) and (max-width: 1440px){
+	.img_catalog{
+	border: 1px solid #636363;
+	padding: 15px;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+.img_catalog img {
+	max-width: 100%;
+}
+}
+.item_catalog{
+	text-align: -webkit-center;
+    padding-bottom: 50px;
+	padding-top: 20px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+.title_item_catalog{
+	font-size: 16px;
+	font-family: 'HurmeGeometricSans1-Light';
+	color: #000;
+	padding: 10px 0 0 0;
+	width: 232px;
+}
+.icon-list-location{
+	font-size: 30px;
+    color: #fff;
+    text-align: right;
+    padding: 0 0 0 20px;
+    background: #383838;
+    text-align: center;
+    padding: 6px 10px;
+}
+.list_catalog{
+	text-align: right;
+	color: #636363;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 20px;
+	justify-content: flex-end;
+	align-items: center;
+}
+.list_catalog span{
+	padding: 0 20px 0 0 ;
+}

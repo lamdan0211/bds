@@ -1,0 +1,43 @@
+.main_message_successful{
+	text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main_message_successful h3{
+	font-size: 20px;
+	font-family: 'HurmeGeometricSans1-Regular';
+	color: #000;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.main_message_successful p{
+	font-size: 16px;
+	font-family: 'HurmeGeometricSans1-Light';
+	color: #000;
+	padding: 10px 0;
+}
+.content_message{
+	padding: 20px 0;
+	line-height: 35px;
+}
+.message_go_home{
+	border: 1px solid #000;
+	padding: 15px 0;
+	color: #000;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 400px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.message_go_home:hover{
+	background: #212121;
+	color: #fff;
+	transition: 0.7s;
+}
+a.hyperlink_contact{
+	color: #eea501;
+	font-family: 'HurmeGeometricSans1-Light';
+	font-size: 16px;
+}

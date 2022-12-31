@@ -1,0 +1,167 @@
+/******Login***** */
+
+body {
+  font-size: 12px;
+  color: #000; }
+a, a:hover {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+.container {
+  max-width: 1920px;
+  padding: 0 50px; }
+
+
+.block_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex; }
+
+.row {
+  margin: 0; }
+
+input, button {
+  outline: none; }
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+     opacity: 1; 
+}
+.block_mobile {
+  display: none; }
+
+.overlay-login {
+    background-color: #fff;
+    position: fixed;
+    overflow: hidden!important;
+    overflow-y: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 18020;
+    display: none;
+}
+.overlay-login .overlay-navigation {
+    position: fixed;
+    z-index: 50;
+    height: 24px;
+    left: 0;
+    top: 20px;
+    width: 100%;
+}
+.overlay-login .overlay-navigation a {
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+}
+.overlay-login .wrap-login {
+    height: 100vh;
+    position: relative;
+}
+.title_login{
+	font-size: 30px;
+	font-family: "HurmeGeometricSans1-Light";
+	text-transform: uppercase;
+	margin: 0 0 40px 0;
+	padding: 0 400px;
+}
+.title_login span{
+	font-size: 16px;
+	color: #000;
+	font-family: "HurmeGeometricSans1-Light";
+	text-transform: none;
+	line-height: 1 !important;
+}
+.padd{padding: 0 15px;}
+.content_quote{
+	padding: 0 400px;
+}
+.content_quote .login-form input[type='text'] {
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid #575757;
+    color: #989898;
+    width: 100%;
+    margin: 0 0 40px 0;
+    font-size: 16px;
+	font-family: "HurmeGeometricSans1-Light";
+}
+.content_quote .login-form input[type='submit'] {
+    font-size: 20px;
+    background: #333333;
+    width: 25%;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    border: none;
+	font-family: "HurmeGeometricSans1-Light";
+}
+.main_login{
+	width: 100%;
+    min-height: 100vh;
+	display: flex;
+}
+
+.btn {
+    font-family: "HurmeGeometricSans1-Light";
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	border-radius:0;
+}
+.btn-register{background: #333333;color: #ffffff;height: 50px;width: 200px; font-size: 16px;}
+
+.btn-register:hover{background: #fff;border: 1px solid #000;}
+
+.file-upload {
+    border: 1px solid #ababab;
+    background-color: #efefef;
+    color: #3a3e42;
+    font-weight: normal;
+    padding: 8px 32px;
+    margin-bottom: 0;
+    font-size: 16px;
+	font-family: "HurmeGeometricSans1-Light";
+}
+input#fileUpload[type=file] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+	cursor: pointer;
+}
+.content_quote input {
+    border-radius: 0 !important;
+    border: 1px solid #ababab;
+    height: 40px;
+    background-color: transparent;
+}
+.note_lable{
+	font-size: 16px;
+	font-family: "HurmeGeometricSans1-Light";
+	color: #636363;
+	margin: 0 0 0 20px;
+}
+.form-group-quote{
+	margin: 0 0 40px 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+	.title_login{
+		padding: 0 100px;}
+	.content_quote{
+		padding: 0 100px;}
+}
+
+

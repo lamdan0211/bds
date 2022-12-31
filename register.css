@@ -1,0 +1,194 @@
+/******Login***** */
+
+body {
+  font-size: 12px;
+  color: #000; }
+a, a:hover {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+.container {
+  max-width: 1920px;
+  padding: 0 50px; }
+
+
+.block_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex; }
+
+.row {
+  margin: 0; }
+
+input, button {
+  outline: none; }
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+     opacity: 1; 
+}
+.block_mobile {
+  display: none; }
+
+.overlay-login {
+    background-color: #fff;
+    position: fixed;
+    overflow: hidden!important;
+    overflow-y: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 18020;
+    display: none;
+}
+.overlay-login .overlay-navigation {
+    position: fixed;
+    z-index: 50;
+    height: 24px;
+    left: 0;
+    top: 20px;
+    width: 100%;
+}
+.overlay-login .overlay-navigation a {
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+}
+.overlay-login .wrap-login {
+    height: 100vh;
+    position: relative;
+}
+.title_login{
+	font-size: 30px;
+	font-family: "HurmeGeometricSans1-Light";
+	text-transform: uppercase;
+	margin: 0 0 40px 0;
+	padding: 0 400px;
+}
+.title_login span{
+	font-size: 16px;
+	color: #000;
+	font-family: "HurmeGeometricSans1-Light";
+	text-transform: none;
+	line-height: 1 !important;
+}
+.padd{padding: 0 15px;}
+.content_login{
+	padding: 0 400px;
+}
+.content_login .login-form input[type='text'] {
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid #575757;
+    color: #989898;
+    width: 100%;
+    margin: 0 0 40px 0;
+    font-size: 16px;
+	font-family: "HurmeGeometricSans1-Light";
+}
+
+.main_login{
+	width: 100%;
+    min-height: 100vh;
+	display: flex;
+}
+
+
+.btn {
+    font-family: "HurmeGeometricSans1-Light";
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	border-radius:0;
+}
+.btn-register{background: #333333;color: #ffffff;height: 50px;width: 200px; font-size: 16px;}
+
+.btn-register:hover{background: #fff;border: 1px solid #000;}
+
+
+
+.profile_selected{
+	padding: 10px 0 40px 0;
+	width: 100%;
+	margin: 0 auto;}
+
+.form-input {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -webkit-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+.choose_ite {
+      width: 100%;
+      position: relative; }
+.choose_ite > a {
+		font-family: 'HurmeGeometricSans1-Light';
+        width: 100%;
+        height: 50px;
+        display: block;
+        height: 40px;
+    	border-bottom: 1px solid #575757;
+        color: #636363;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-felx;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+		font-size: 16px;}
+ .choose_ite > a i {font-size: 10px;}
+ .choose_ite .choose_ite_box {
+        position: absolute;
+        width: 100%;
+        border-radius:0;
+        border: 1px solid #e1e1e1;
+        left: 0;
+        top: 40px;
+        background: #fff;
+        z-index: 3;
+        display: none; }
+.choose_ite_box.active {
+          display: block; }
+.choose_ite_box .result_ite_box ul li {
+          padding: 10px; }
+.choose_ite_box .result_ite_box ul li:hover {
+            background: #f5f4f4; }
+.choose_ite_box .result_ite_box ul li{
+	color: #000;
+	font-size: 16px;
+}
+.choose_ite_box .result_ite_box ul li a {
+            color: #000;
+			font-size: 16px;}
+.lable_select{
+	background: #e5e5e5;width: 100%;
+        height: 50px;
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+	.title_login{
+		padding: 0 100px;}
+	.content_login{
+		padding: 0 100px;}
+	
+}
+
+

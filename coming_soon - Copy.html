@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ <style>
+ .block_subscribe {
+	  position: relative;
+	  z-index: 0;
+	  overflow: hidden;
+	  height: calc(100vh - 140px) 
+  }
+
+  .block_subscribe .block_background_subscribe {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background: url("https://theodorealexander.sirv.com/website/Frontend/Live/assests/bg_coming_soon.jpg") no-repeat center center;
+    position: absolute;
+	background-attachment: fixed;}
+    .block_subscribe .block_background_subscribe .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -webkit-flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 100%; }
+    .block_subscribe .block_background_subscribe .block_content {
+      z-index: 5;
+      text-align: center;
+      width: 1020px;}
+      .block_subscribe .block_background_subscribe .block_content ul li {
+        margin: 0 30px 0 0; }
+        .block_subscribe .block_background_subscribe .block_content ul li:last-child {
+          margin: 0; }
+      .block_subscribe .block_background_subscribe .block_content h2 {
+        font-family: 'Raleway';
+        position: relative;
+        text-transform: uppercase;
+        font-size: 60px;
+        color: #fff;
+	 	font-weight: 500;
+		letter-spacing: 10px;
+		padding: 0;
+		margin: 0;
+	 }
+      .block_subscribe .block_background_subscribe .block_content p {
+        font-family: 'Raleway';
+        font-size: 18px;
+        color: #fff;
+		padding: 0 0 20px 0;
+        }
+      .block_subscribe .block_background_subscribe .block_content .block_form {
+        width: 760px;
+        margin: 0 auto;
+        position: relative; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type='text'] {
+          width: 100%;
+          height: 50px;
+          background: transparent;
+          border: 1px solid #d2d1d0;
+          padding: 0 20px;
+          color: #fff;
+          font-family: 'Raleway';
+          font-size: 16px;
+          font-style: italic; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type='text']::-webkit-input-placeholder {
+          color: #fff;
+          font-family: 'Raleway';
+          font-size: 16px; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type='text']:-ms-input-placeholder {
+          color: #fff;
+          font-family: 'Raleway';
+          font-size: 16px; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type='text']::-ms-input-placeholder {
+          color: #fff;
+          font-family: 'Raleway';
+          font-size: 16px; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type='text']::placeholder {
+          color: #fff;
+          font-family: 'Raleway';
+          font-size: 16px; }
+        .block_subscribe .block_background_subscribe .block_content .block_form input[type="submit"] {
+          position: absolute;
+          right: 0;
+          width: 50px;
+          height: 50px;
+          border: none;
+          top: 0;
+          background: transparent;
+          z-index: 10; }
+        .block_subscribe .block_background_subscribe .block_content .block_form i {
+          color: #fff;
+          font-size: 30px;
+          position: absolute;
+          right: 8px;
+          top: 10px;
+          z-index: 9; }
+	 .logo_coming_soon_page{
+		 max-width: 70%;
+		 text-align: center;
+		 margin: 0 auto;
+		 padding: 10px 0 30px 0;
+	 }
+	 .block_background {
+		position: absolute;
+		background: rgba(0,0,0,.6);
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+ </style>
+</head>
+
+<body>
+	<div class="logo_coming_soon_page">
+		<img src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/logo.svg">
+	</div>
+	<div class="block_subscribe">
+      <div class="block_background_subscribe">
+        <div class="container">
+          <div class="block_content">
+            <h2>COMMING SOON</h2>
+            <p>We are currently working on this feature, will launch soon, follow us for updates!</p>
+            <form class="block_form">
+              <input type="text" placeholder="Your email">
+              <input type="submit" value=""><i><img src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/icon_plan3.png"></i>
+            </form>
+          </div>
+          <div class="block_background"></div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

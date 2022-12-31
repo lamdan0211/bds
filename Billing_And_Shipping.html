@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <!-- Load css styles-->
+    <link rel="stylesheet" type="text/css" href="assets/common/css/lib/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/common/css/lib/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/common/css/global1.css">
+    <link rel="stylesheet" type="text/css" href="assets/common/css/iconta.css">
+    <link rel="stylesheet" type="text/css" href="Billing_And_Shipping.css">
+	
+    <title>Billing and shipping</title>
+  </head>
+  <body>
+
+	 <!-- block_breadcrumb-->
+    <div class="_breadcrumb_checkout">
+      <div class="container">
+        <ul class="block_flex bread_content">
+		  <i class="icon-home"></i>
+          <li><a href="#">Home<span>/ </span></a></li>
+          <li><a href="#">Billing and shipping</a></li>
+        </ul>
+      </div>
+    </div>
+	  
+    <!-- block_main billing-->
+	<div class="billing_shipping">
+		<div class="head_checkout">
+			<div class="container">
+				<div class="checkout_title">
+					<h2>Checkout</h2>
+				</div>
+				<div class="info_header">
+					<span>
+						Once you register with Theodore Alexander you can create Lookbooks that let you save and share your favourite pieces, and you’re able to
+						receive regular updates from THEO, our very own online blog that brings you design insights and inspiration.
+					</span>
+				</div>
+			</div>
+        </div>
+		<div class="tab_middle block_flex justify-content-center">
+			<div class="billing"><a class="active" href="#">Billing and Shipping info</a></div>
+			<div class="verify"><a href="#">Verify your order</a></div>
+		</div>
+		<div class="title_name_billing block_flex justify-content-center">
+			<div class="title_item">Billing and Shipping info</div>
+		</div>
+		<div class="main_content_billing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h4 class="title">Billing Address <a href="#"><i class="icon-help"></i></a></h4>
+						<ul>
+							<li>
+								<span>Address: </span>
+								<span>Hillat, Jidd Haffs, Bahrain 98464</span>
+							</li>
+							<li>
+								<span>Phone:</span>
+								<span>84844625</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h4 class="title">Shipping Address <a href="#"><i class="icon-help"></i></a></h4>
+						<div class="frm-selected">
+							<div class="form-input">
+							  <div class="choose_ite">
+								<a href="javascript:void(0)"> SANTA MARTHA <i class="icon-arrow_dropdown"></i></a>
+								<div class="choose_ite_box">
+								  <div class="result_ite_box">
+									<ul>
+									  <li><a href="#">SANTA MARTHA</a></li>
+									  <li><a href="#">SANTA MARTHA</a></li>
+									  <li><a href="#">SANTA MARTHA</a></li>
+									</ul>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<ul>
+							<li>
+								<span>Address: </span>
+								<span>Hillat, Jidd Haffs, Bahrain 98464</span>
+							</li>
+							<li>
+								<span>Phone:</span>
+								<span>84844625</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row padd">
+						<div class="col-md-6">
+							<h4 class="title">Special Instructions</h4>
+							<span class="content_detail">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+							</span>
+						</div>
+						<div class="col-md-6">
+							<form class="frm-form">
+								<div>
+									<label class="title">Your Reference Number</label>
+									<input type="text" name="name">
+								</div>
+								<div>
+									<label class="title">Instructions</label>
+									<textarea class="text_content" rows="4" cols="50"></textarea>
+								</div>
+							</form>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-6 btn_shiping block_flex justify-content-center">
+						<button class="btn-back"><i class="icon-arrow-button"></i>Back to shopping cart </button>
+						<button class="btn-verify">Verify your order </button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div> <!--end billing-->
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+	 $('.choose_ite a').click(function(e){
+		var _this = $(this).parent();
+		 console.log("abc");
+		_this.find('.choose_ite_box').toggleClass('active');
+	});
+  </script>
+	
+</html>

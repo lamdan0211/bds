@@ -1,0 +1,170 @@
+.row{
+	padding: 0;
+	margin: 0;
+}
+/**** .breadcrumbs ****/
+.breadcrumbs {
+  background: #f7f7f7;
+  color: #636363;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-family: "HurmeGeometricSans1-Light", sans-serif;
+  font-size: 16px;
+}
+@media (max-width: 1199.98px) {
+  .breadcrumbs {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .breadcrumbs {
+    font-size: 14px;
+  }
+}
+/**** /.breadcrumbs ****/
+
+/**** .container ****/
+@media (max-width: 1199.98px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+/**** /.container ****/
+
+.left_top{
+	background: #353535;
+    position: relative;
+    justify-content: center;
+    display: flex;	
+	height: 100%;
+}
+.right_top img{
+	max-width: 100%;
+	padding: 0;
+	display: block;
+}
+.col-xl-9, .col-md-12
+{	padding-left: 0;
+	margin-left: 0
+}
+.left_top ul{
+	top: 15%;
+	position: absolute;
+	line-height: 40px;
+}
+.left_top ul li{
+	color: #fff;
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	align-items: center;
+	list-style-type: square!important;
+	border-bottom: 1px solid #535353;
+}
+.left_top ul li a{
+	color: #fff;
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	align-items: center;
+	list-style-type: square!important;
+}
+.left_top ul li:last-child{
+	border-bottom: none;
+}
+.left_top ul li:hover, .left_top ul li a:active, .left_top ul li a:hover{
+	color: #eea501;
+}
+
+/*** /.about_us_banner ***/
+
+.about_us_philosophy{
+  font-family: "HurmeGeometricSans1-Light";
+  font-size: 16px;
+}
+
+.left_top{
+	background: #353535;
+	position: relative;
+}
+
+/*** Top banner ***/
+.about_us_title {
+  padding: 30px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.about_us_title-h3 {
+  position: relative;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.about_us_title-h3::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 50%;
+  left: -120px;
+  background: black;
+  position: absolute;
+}
+.about_us_title-h3::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 50%;
+  right: -120px;
+  background: black;
+  position: absolute;
+}
+/***End Top banner ***/
+.main_social{
+	
+}
+.about_us_social{
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	text-align: center;
+}
+.left_content{
+	padding: 0 100px 0 0;
+}
+.social{
+	padding: 50px 0 15px 0 ;
+	font-size: 16px;
+	font-family: "HurmeGeometricSans1-Light";
+	line-height: 45px;
+	text-align: justify;
+}
+.title_social{
+	font-size: 25px;
+	font-family: "HurmeGeometricSans1-Regular";
+	text-transform: uppercase;
+	padding: 0px 0 30px 0;
+}
+.title_social::after{
+	content: "";
+    width: 40px;
+    height: 1px;
+    top: 3%;
+    left: 100px;
+    background: #000;
+    position: absolute;
+}
+.main_environmental{
+	padding: 50px 0 0 0;
+}
+.main_environmental ul {
+	padding: 0 0 0 20px;
+}
+.main_environmental ul li{
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	line-height: 40px;
+	list-style: square!important;
+	text-align: justify;
+}

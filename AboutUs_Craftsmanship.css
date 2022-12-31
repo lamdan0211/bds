@@ -1,0 +1,387 @@
+.row{
+	padding: 0;
+	margin: 0;
+}
+/**** .breadcrumbs ****/
+.breadcrumbs {
+  background: #f7f7f7;
+  color: #636363;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-family: "HurmeGeometricSans1-Light", sans-serif;
+  font-size: 16px;
+}
+@media (max-width: 1199.98px) {
+  .breadcrumbs {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .breadcrumbs {
+    font-size: 14px;
+  }
+}
+/**** /.breadcrumbs ****/
+
+/**** .container ****/
+@media (max-width: 1199.98px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+/**** /.container ****/
+
+.left_top{
+	background: #353535;
+    position: relative;
+    justify-content: center;
+    display: flex;	
+	height: 100%;
+}
+.right_top img{
+	padding: 0;
+	display: block;
+	max-width: 100%;
+	height: 100%
+}
+@media (max-width: 1199.98px) {
+ .right_top img{
+	display: block;
+	max-width: 100%!important;
+	 height: 325px;
+	}
+}
+.col-xl-9, .col-md-12
+{	padding: 0;
+	margin: 0
+}
+.left_top ul{
+	line-height: 40px;
+	padding: 50px 0 0 0;
+}
+
+@media (max-width: 1199.98px) {
+  .left_top ul{
+	padding: 30px 0 30px 0;
+	}
+}
+
+.left_top ul li{
+	color: #fff;
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	align-items: center;
+	list-style-type: square!important;
+	border-bottom: 1px solid #535353;
+}
+.left_top ul li a{
+	color: #fff;
+	font-family: "HurmeGeometricSans1-Light";
+  	font-size: 16px;
+	align-items: center;
+	list-style-type: square!important;
+}
+.left_top ul li:last-child{
+	border-bottom: none;
+}
+.left_top ul li:hover, .left_top ul li a:active, .left_top ul li a:hover{
+	color: #eea501;
+}
+
+
+/*** /.about_us_banner ***/
+
+.about_us_philosophy{
+  font-family: "HurmeGeometricSans1-Light";
+  font-size: 16px;
+}
+
+.left_top{
+	background: #353535;
+	position: relative;
+}
+
+/*** Top banner ***/
+.about_us_title {
+  padding: 30px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.about_us_title-h3 {
+  position: relative;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.about_us_title-h3::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 50%;
+  left: -120px;
+  background: black;
+  position: absolute;
+}
+.about_us_title-h3::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 50%;
+  right: -120px;
+  background: black;
+  position: absolute;
+}
+/***End Top banner ***/
+
+.main_craftsmanship{
+	padding: 30px 0;
+	margin: 0 -20px 0 0;
+}
+@media (max-width: 1199.98px) {
+	.main_craftsmanship{
+		margin: 0 ;
+	}
+	.about_us_title-h3::before{
+		display: none;
+	}
+	.about_us_title-h3::after{
+		display: none;
+	}
+}
+
+
+.title_craftsmanship{
+	font-family: "HurmeGeometricSans1-Regular";
+  	font-size: 25px;
+	text-transform: uppercase;
+	padding: 10px 0 20px 0;
+}
+.item_craftsmanship{
+	background: #f9f9f9;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: 0 20px 0 0;
+	height: 620px;
+}
+@media (max-width: 1199.98px) {
+	.item_craftsmanship{
+		height: auto;
+		margin: 0 0 30px 0;
+    	padding: 0 0 30px;
+	}
+}
+
+
+.item_craftsmanship:hover{
+	box-shadow: 0 0 10px 1px #cfcfcf;
+}
+.item_craftsmanship img{
+	width: 100%;
+}
+.item_craftsmanship span{
+	width: 85%;
+    font-family: "HurmeGeometricSans1-Light";
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding: 20px 10px 40px 10px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199.98px) {
+	.item_craftsmanship span{
+		padding: 20px 0px 0px 0px;
+    	margin: 0 auto;
+	}
+}
+
+
+.col-lg-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.main_video{
+	margin: 0 -20px 0 0;
+}
+.item_video{
+	margin: 0 20px 0 0;
+	position: relative;
+	height: 100%;
+}
+
+
+
+
+.item_video img{
+	width: 100%;
+	height: 100%;
+}
+.item_video::before{
+	content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icon_video{
+	position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.icon-circle_video{
+	font-size:70px;
+	color: #fff;
+}
+.caption_video{
+	text-align: center;
+	font-family: "HurmeGeometricSans1-Light";
+	display: block;
+	padding: 20px 0 0 0;
+}
+.video{
+	padding: 0 0 70px 0;
+}
+.dash_item{
+	height: 2px;
+    width: 30px;
+    background: #adadad;
+    top: 100px;
+    margin: 15px 20px 50px 0;
+    display: inline-block;
+}
+
+@media (max-width: 1199.98px) {
+  
+  .block_mobile {
+    display: block; }
+  .block_desktop {
+    display: none; }
+}
+@media (max-width: 1199.98px) {
+	.dash_item{
+		height: 2px;
+		width: 30px;
+		background: #adadad;
+		top: 100px;
+		margin: 20px 20px 50px 0;
+		display: inline-block;
+	}
+}
+.dash_item:last-child{
+	margin-right: 0;
+}
+
+
+.dash_item.active{
+	background: #eea501;
+}
+
+
+.menu_item_photography ul li{
+	display: inline-block;
+	border: 1px solid #636363;
+	padding: 15px 70px ;
+	margin: 10px 20px 15px 0 ;	
+	width: 225px;
+	text-align: center;
+	font-family: "HurmeGeometricSans1-Light";
+}
+
+@media (max-width: 1199.98px) {
+	
+	.menu_item_photography ul{
+		width: 100%;
+	}
+	.menu_item_photography ul li{
+		width: 48%;
+    	padding: 15px 30px;
+    	margin: 10px 3px 15px 0;
+	}
+	
+}
+
+.menu_item_photography ul li:hover{
+	background: #eea501;
+	color: #fff;
+	border: none;
+	
+}
+.menu_item_photography ul li.active{
+	background: #eea501;
+	color: #fff;
+	border: none;
+	
+}
+
+.menu_item_photography ul li.active::after{
+	content: '';
+    border: 7px solid transparent;
+    border-top-color: #eea501;
+    position: relative;
+    left: -18px;
+    top: 44px;
+}
+
+.picture_content{
+	padding: 20px 0;
+	margin-right: -1%;
+}
+
+
+.pic_item{
+	float: left;
+	margin-right: 1%;
+	width: 19%;
+	margin-bottom: 10px;
+	position: relative;
+	margin-bottom: 1%;
+}
+
+@media (max-width: 1199.98px) {
+	.picture_content {
+		padding: 20px 0;
+		margin-right: -2%;
+	}
+	.pic_item {
+		margin-right: 2%;
+		width: 48%;
+		margin-bottom: 2%;
+	}
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+  width:100%;
+  font-family: "HurmeGeometricSans1-Light";
+}
+
+.pic_item:hover .overlay {
+  opacity: 1;
+}
+.photo_optimize {
+  display: block;
+  width: 100%;
+  height: auto;
+}

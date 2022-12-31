@@ -1,0 +1,443 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Email Wish List</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	a {
+		text-decoration: none;
+		color: #212121 !important;
+	}
+
+	ul li {
+		list-style: none !important;
+		padding: 0 20px;
+		width: 100%
+	}
+
+	tr td ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.bg {
+		background-color: #f5f5f5;
+	}
+
+	.line-email {
+		width: 100%;
+		height: 1px;
+		content: "";
+		background-color: #e4e4e4;
+	}
+
+	.content-message-email-wishlist {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #212121;
+		line-height: 30px;
+		padding: 15px 0;
+		width: 100%;
+	}
+
+	.another-wishlist {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #212121;
+		line-height: 30px;
+		padding: 5px 0 0 0;
+		width: 100%;
+	}
+
+	.item-view-detail {
+		font-family: 'Roboto', sans-serif;
+		padding: 10px 20px;
+		border: 1px solid #212121;
+		font-size: 14px;
+		color: #ffffff;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	.td-item-1 {
+		display: inline-flex;
+		align-items: center;
+	}
+
+		.td-item-1 img {
+			width: 160px;
+			height: auto;
+		}
+
+	.format-item-email {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #212121;
+		padding-top: 5px;
+		width: 100%;
+		text-transform: uppercase;
+		text-align: left;
+		font-weight: 500;
+	}
+
+	.format-subitem-email {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #b5b5b5 !important;
+		padding-top: 5px;
+		width: 100%;
+		text-align: left;
+	}
+
+	.addition-question {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #515151;
+		line-height: 25px;
+		padding: 15px 0;
+		font-style: italic;
+		border-bottom: 1px dashed #b5b5b5;
+		border-top: 1px dashed #b5b5b5;
+		width: 100%;
+	}
+
+	@media only screen and (max-device-width: 768px) {
+		.content-message-email-wishlist {
+			line-height: 50px;
+			padding-bottom: 40px;
+		}
+	}
+
+	.tr-product-email {
+		justify-content: space-between;
+		border-bottom: 1px solid #eaeaea;
+		padding: 20px 0;
+	}
+
+		.tr-product-email:last-child {
+			border-bottom: none;
+		}
+
+	.title-email-wishlist {
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+		color: #212121;
+		padding-top: 5px;
+		width: 100%;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	.btn-view-wishlist {
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		padding-top: 5px;
+		text-transform: uppercase;
+		background-color: #212121;
+		color: #fff !important;
+		padding: 10px 50px;
+		font-weight: 300;
+		width: 200px;
+		height: 40px;
+	}
+
+	.follow-us-lable {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+		padding: 20px 0;
+	}
+
+	.table-btn-email-list {
+		padding: 10px 40px;
+	}
+
+	.item-img {
+		width: 30%;
+	}
+
+	.item-descrip {
+		width: 45%;
+	}
+
+	.item-btn {
+		width: 25%;
+	}
+
+
+	@media only screen and (max-device-width: 450px) {
+
+		.td-item-1 {
+			display: block;
+			padding: 40px 0;
+		}
+
+			.td-item-1 img {
+				width: 100%;
+				height: auto;
+			}
+
+		.format-item-email {
+			font-size: 40px;
+			text-align: center;
+		}
+
+		.format-subitem-email {
+			font-size: 30px;
+			text-align: center;
+			color: #636363;
+		}
+
+		.item-view-detail {
+			max-width: 100%;
+			height: 70px;
+			font-size: 30px;
+			padding: 20px 130px;
+		}
+
+		.tr-product-email {
+			padding: 50px 0;
+			border-bottom: 1px solid #c1c1c1;
+		}
+
+		.btn-view-wishlist {
+			font-size: 40px;
+			padding: 30px 100px;
+		}
+
+		.title-email-wishlist {
+			font-size: 50px;
+			line-height: 80px;
+			font-weight: 500;
+		}
+
+		.follow-us-lable {
+			font-size: 20px;
+			border-top: 1px solid #919191;
+		}
+
+		.table-btn-email-list {
+			padding: 50px 100px;
+		}
+
+		.item-img, .item-descrip, .item-btn {
+			width: 100%;
+		}
+
+		.tr-product-email {
+			display: block !important;
+			width: 100%;
+		}
+	}
+</style>
+</head>
+<body class="bg">
+	<table style="background-color: #fff; max-width:900px; height: auto; border-radius: 10px" align="center">
+		<tr>
+			<td>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 40px;" >
+					<tr align="center">
+						<td style="max-width: 100%; padding: 10px 5px 5px 5px;text-align: center">
+							<img src="https://www.theodorealexander.com/assets/img/logo.svg" style="max-width: 100%">
+						</td>
+					</tr>
+					
+				</table>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 20px;">
+					<tr align="center">
+						<td width="40%"></td>
+						<td width="20%" style="width: 150px; height: 1px; background-color: #000;"></td>
+						<td width="40%"></td>
+					</tr>
+				</table>
+				
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 40px">
+					<tr align="left">
+						<td style="font-family: 'Roboto', sans-serif; font-size: 16px; width: 100%; padding-top: 20px">Hi Sydney</td>
+					</tr>
+					<tr align="left">
+						<td class="content-message-email-wishlist">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</td>
+					</tr>
+					
+					<tr align="left" style="padding: 20px 0;">
+						<td class="addition-question">
+							If you have any additional questions, please let us know.
+						</td>
+					</tr>
+					<tr align="left">
+						<td style="font-family: 'Roboto', sans-serif; font-size: 16px; color: #212121; padding-top: 20px;width: 100%; padding-top: 40px;">
+							Best Regards,
+						</td>
+					</tr>
+					<tr align="left">
+						<td style="font-family: 'Roboto', sans-serif; font-size: 16px; color: #212121; padding-top: 5px;width: 100%">
+							Sydney
+						</td>
+					</tr>
+					<tr align="left">
+						<td style="font-family: 'Roboto', sans-serif; font-size: 16px; color: #212121; padding-top: 5px;width: 100%">
+							<a href="mailto:sydney@theodorealexander.com" style="color: #1685aa">sydney@theodorealexander.com</a>
+						</td>
+					</tr>
+				</table>
+					
+				<table border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 40px; background-color: #d4d4d4; margin-top: 50px;" width="100%">
+					<tr align="center">
+						<td class="title-email-wishlist">
+							Wish Lists for sydney
+						</td>
+					</tr>
+				</table>
+				
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 40px" >
+					<tr width="100%" align="center" class="tr-product-email">
+						<td  class="td-item-1 item-img">
+							<a href="#"><img src="https://theodorealexander.sirv.com/ProductPhotos/AXH/AXH41006_main_1.jpg" width="100%"></a>
+						</td>
+						<td  valign="middle" class="td-item-1 item-descrip">
+							<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+								<tr width="100%" valign="middle" align="center">
+									<td class="format-item-email" >
+										<a href="#">BLITZER ARMCHAIR</a>
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="format-subitem-email">
+										<a href="#">AXH41006</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td  class="td-item-1 item-btn">
+							<a class="item-view-detail" href="#">View Detail</a>
+						</td>
+					</tr>
+					<tr width="100%" align="center" class="tr-product-email">
+						<td  class="td-item-1 item-img">
+							<a href="#"><img src="https://theodorealexander.sirv.com/ProductPhotos/AXH/AXH40005_main_1.jpg" width="100%"></a>
+						</td>
+						<td  valign="middle" class="td-item-1 item-descrip">
+							<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+								<tr width="100%" valign="middle" align="center">
+									<td class="format-item-email" >
+										<a href="#">ALBERTO SIDE CHAIR</a>
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="format-subitem-email">
+										<a href="#">AXH40005</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td  class="td-item-1 item-btn">
+							<a class="item-view-detail" href="#">View Detail</a>
+						</td>
+					</tr>
+					<tr width="100%" align="center" class="tr-product-email">
+						<td  class="td-item-1 item-img">
+							<a href="#"><img src="https://theodorealexander.sirv.com/ProductPhotos/CB4/CB40033.2ARC_main_1.jpg" width="100%"></a>
+						</td>
+						<td  valign="middle" class="td-item-1 item-descrip">
+							<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+								<tr width="100%" valign="middle" align="center">
+									<td class="format-item-email" >
+										<a href="#">GUTHRIE DINING SIDE CHAIR</a>
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="format-subitem-email">
+										<a href="#">CB40033.2ARC</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td  class="td-item-1 item-btn">
+							<a class="item-view-detail" href="#">View Detail</a>
+						</td>
+					</tr>
+					<tr width="100%" align="center" class="tr-product-email">
+						<td  class="td-item-1 item-img">
+							<a href="#"><img src="https://theodorealexander.sirv.com/ProductPhotos/KEN/KENO4226.0ABC_main_1.jpg" width="100%"></a>
+						</td>
+						<td  valign="middle" class="td-item-1 item-descrip">
+							<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+								<tr width="100%" valign="middle" align="center">
+									<td class="format-item-email" >
+										<a href="#">SPEED UPHOLSTERED CHAIR</a>
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="format-subitem-email">
+										<a href="#">KENO4226.0ABC</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td  class="td-item-1 item-btn">
+							<a class="item-view-detail" href="#">View Detail</a>
+						</td>
+					</tr>
+					<tr width="100%" align="center" class="tr-product-email">
+						<td  class="td-item-1 item-img">
+							<a href="#"><img src="https://theodorealexander.sirv.com/ProductPhotos/401/4012-023COM_main_1.jpg" width="100%"></a>
+						</td>
+						<td  valign="middle" class="td-item-1 item-descrip">
+							<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+								<tr width="100%" valign="middle" align="center">
+									<td class="format-item-email" >
+										<a href="#">CARLYLE BAR STOOL</a>
+									</td>
+								</tr>
+								<tr align="center">
+									<td class="format-subitem-email">
+										<a href="#">4302-009vCOM</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td  class="td-item-1 item-btn">
+							<a class="item-view-detail" href="#">View Detail</a>
+						</td>
+					</tr>
+					
+				</table>
+				
+				
+			</td>
+		</tr>
+	</table>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="table-btn-email-list">
+		<tr align="center">
+			<td style="padding: 30px 0 20px 0; border-bottom: 1px solid #e4e4e4; line-height: 60px">
+				<a class="btn-view-wishlist" href="#">View Wish Lists</a>
+			</td>
+		</tr>
+	</table>
+	
+	<table border="0" cellpadding="0" cellspacing="0" align="center" style="padding: 10px 0; max-width: 900px;">
+
+		<tr align="center">
+			<td colspan="6" width="100%" class="follow-us-lable">
+				Follow us on Social
+			</td>
+		</tr>
+		<tr>
+			<td align="center"> <a  href="https://www.instagram.com/theodore_alexander_official/"><img style="margin: 0 25px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/instagram.png" width="25" height="25"></a> </td>
+			<td align="center"> <a  href="https://www.facebook.com/TheoAlex"><img style="margin: 0 25px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/facebook.png" width="15" height="29"></a> </td>
+			<td align="center"> <a  href="https://www.youtube.com/channel/UC1nO0CpfCMquPW05mTv5R4A"><img style="margin: 0 25px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/youtube.png" width="31" height="21"></a> </td>
+			<td align="center"> <a  href="https://twitter.com/theoalex"> <img style="margin: 0 25px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/twitter.png" width="28" height="23"></a> </td>
+			<td align="center"> <a  href="https://www.pinterest.com/theoweb/"><img style="margin: 0 25px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/pinterest.png" width="21" height="27"></a> </td>
+			<td align="center"> <a  href="https://www.linkedin.com/checkpoint/challengesV2/AQE_LCHJFBjA7AAAAXJeQVovnPjTUwC9XExKn_vVRwc9DgyoaELyltaCAM0WBwxGi-8K0wAnfomTpbBa8foBTztmGfmTo7izdA"><img style="margin: 0 2px 0 0" src="https://theodorealexander.sirv.com/website/Frontend/Live/assests/emailwishlist/linkedIn.png" width="25" height="25"></a> </td>
+		</tr>
+		
+	</table>
+</body>
+</html>

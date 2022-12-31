@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<!-- Load css styles-->
+<link rel="stylesheet" type="text/css" href="assets/common/css/lib/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/common/css/lib/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/common/css/global1.css">
+<link rel="stylesheet" type="text/css" href="assets/common/css/iconta.css">
+<link rel="stylesheet" type="text/css" href="search_photo.css">
+<title>Search Photo </title>
+</head>
+<body>
+	<div class="overlay-login" style="display: block">
+		<div class="row">
+			<div class="main_login align-items-center">
+				<div class="cover_search col-lg-6 mx-auto">
+					<div class="overlay-navigation">
+             			<a class="close" href="#"><i class="icon-close"></i></a>
+        			</div>
+					<h2 class="title_search_photo">Search with Photo</h2>
+					<div class="select_photo">
+						<i class="icon-search_picture"></i>
+						<div class="content_noted">Drag & Drop <br> Or, select a saved photo</div>
+					</div>
+					<div class="search_try_photo">
+						<h4 class="title_try">Or, try it with one of ours:</h4>
+						<ul class="block_flex">
+							<li><img src="assets/img/photo_try_search.jpg"></li>
+							<li><img src="assets/img/photo_try_search.jpg"></li>
+							<li><img src="assets/img/photo_try_search.jpg"></li>
+							<li><img src="assets/img/photo_try_search.jpg"></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+	 $('.choose_ite a').click(function(e){
+		var _this = $(this).parent();
+		 console.log("abc");
+		_this.find('.choose_ite_box').toggleClass('active');
+	});
+  </script>
+</html>

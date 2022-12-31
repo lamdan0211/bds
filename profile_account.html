@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <!-- Load css styles-->
+    <link rel="stylesheet" type="text/css" href="assets/common/css/lib/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/common/css/lib/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/common/css/global1.css">
+    <link rel="stylesheet" type="text/css" href="assets/common/css/iconta.css">
+    <link rel="stylesheet" type="text/css" href="profile_account.css">
+	
+    <title>Profile Account</title>
+  </head>
+  <body>
+
+	<!-- block_breadcrumb-->
+	<div class="_breadcrumb">
+	  <div class="container">
+		<ul class="block_flex bread_content">
+		  <i class="icon-home"></i>
+		  <li><a href="#">Home<span> / </span></a></li>
+		  <li><a href="#"> Your Account<span> / </span></a></li>
+		  <li><a href="#">Account Setting</a></li>
+		</ul>
+	  </div>
+	</div>
+    <!-- block_main_content-->
+    <div class="main_profile">
+  		
+			<div class="profile_content">
+				<div class="left_profile block_desktop">
+					<ul>
+						<li><a href="#"><i class="icon-user"></i>Account setting</a></li>
+						<li><a href="#"><i class="icon-heart_outline"></i>Wish Lists</a></li>
+						<li><a href="#"><i class="icon-Store"></i>Dealer Settings</a></li>
+						<li><a href="#"><i class="icon-Oder_History"></i>Your Oders History</a></li>
+					</ul>
+				</div>
+				<div class="block_mobile profile_mobile">
+					<div class="form-input">
+					  <div class="choose_ite">
+						<a href="javascript:void(0)"> Account Setting <i class="icon-arrow_dropdown"></i></a>
+							<div class="choose_ite_box">
+							  <div class="result_ite_box">
+								<ul>
+								  <li><a href="#"><i class="icon-user"></i>Account setting</a></li>
+								  <li><a href="#"><i class="icon-heart_outline"></i>Wish Lists</a></li>
+								  <li><a href="#"><i class="icon-Store"></i>Dealer Settings</a></li>
+								  <li><a href="#"><i class="icon-Oder_History"></i>Your Oders History</a></li>
+								</ul>
+							  </div>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="right_profile">
+					<div class="row ">
+						<div class="col-lg-6 col-sm-12 col-xs-12">
+							<div class="left">
+								<h4>Account</h4>
+								<ul>
+									<li>
+										<span>Username: </span>
+										<span>dealertest</span>
+									</li>
+									<li>
+										<span>Password: </span>
+										<span>***************</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					  <div class="col-lg-6 col-sm-12 col-xs-12 ">
+						<div class="right">
+							<h4>Account Details</h4>
+						<ul>
+							<li>
+								<span>First name: </span>
+								<span>nguyen thi ngoc</span>
+							</li>
+							<li>
+								<span>Last name: </span>
+								<span>thanh</span>
+							</li>
+							<li>
+								<span>Email: </span>
+								<span>ntnthanh@theodorealexander.com</span>
+							</li>
+							<li>
+								<span>Address:	 </span>
+								<span>168, TL43, Linh Trung Ward, Thu Duc District,  HCM City</span>
+							</li>
+							
+						</ul>  
+						</div>
+					</div>
+					</div>
+					<div class="row">
+						<div class=" col-md-12">
+							<div class="edit_account">
+								<a href="#"><i class="icon-edit"><span>Edit Account</span></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		
+    </div>
+	
+	
+  </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script>
+		 $('.choose_ite a').click(function(e){
+			var _this = $(this).parent();
+			 console.log("abc");
+			_this.find('.choose_ite_box').toggleClass('active');
+		});
+	  </script>
+ 
+</html>

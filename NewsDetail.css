@@ -1,0 +1,281 @@
+.row{
+	margin: 0;
+}
+/**** .breadcrumbs ****/
+.breadcrumbs {
+  background: #f7f7f7;
+  color: #636363;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-family: "HurmeGeometricSans1-Light", sans-serif;
+  font-size: 16px;
+}
+@media (max-width: 1199.98px) {
+  .breadcrumbs {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .breadcrumbs {
+    font-size: 14px;
+  }
+}
+/**** /.breadcrumbs ****/
+
+/**** .container ****/
+@media (max-width: 1199.98px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+/**** /.container ****/
+
+/**** .single_post ****/
+.main_detail_new{
+	border-bottom: 8px solid #f6f6f6;
+}
+.single_post {
+  padding: 30px 0 0 0;
+  font-family: "HurmeGeometricSans1-Light", sans-serif;
+  font-size: 16px;
+}
+.single_post-title {
+  font-family: "HurmeGeometricSans1-Regular", sans-serif;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.single_post_meta{
+  margin: 20px 0;
+}
+.single_post_author {
+  font-family: "HurmeGeometricSans1-SemiBold", sans-serif;
+}
+.single_post_date {
+  color: #333333;
+  margin-right: 10px;
+}
+.single_post_share {
+  color: #333333;
+  margin-left: 10px;
+}
+.single_post_share-icon{
+  margin-left: 10px;
+}
+.single_post_related {
+  background: #fafafa;
+  padding: 40px 0;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+.single_post_related-ul {
+  list-style: none;
+  padding: 0;
+}
+.single_post_related-li {
+  font-family: "HurmeGeometricSans1-SemiBold", sans-serif;
+  position: relative;
+  text-indent: 20px;
+  line-height: 2;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.single_post_related-li::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 4px solid #212121;
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+.single_post_related-li-active a {
+  color: #eea501;
+}
+.single_post_related-li-active::before {
+  border-left: 4px solid #eea501;
+}
+.single_post_content-h4{
+  font-family: "HurmeGeometricSans1-SemiBold", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.single_post_content-img {
+  width: 100%;
+}
+.single_post_content-p{
+  margin: 20px 0;
+  line-height: 2.5;
+  text-align: justify;
+  text-align-last: left;
+}
+.single_post_content-highlighted{
+  color: #eea501;
+}
+.single_post_content_slider{
+  position: relative;
+}
+.single_post_content_slider-img{
+  width: 100%;
+}
+.single_post_content_quote{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.single_post_content_slider_nav{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.single_post_content_slider_nav-pre{
+  background: #a5a3a0;
+  padding: 7px 20px;
+  margin-right: 3px;
+}
+.single_post_content_slider_nav-pre-span{
+  color: #fff;
+}
+
+.single_post_content_slider_nav-next{
+  background: #a5a3a0;
+  padding: 7px 20px;
+}
+.single_post_content_slider_nav-next-span{
+  color: #fff;
+}
+
+.single_post_content_quote-p{
+  font-family: "HurmeGeometricSans1-LightObl", sans-serif;
+  line-height: 2.5;
+  text-align: justify;
+  text-align-last: left;
+}
+.single_post_content_quote_hr{
+  width: 170px;
+  height: 1px;
+  background: #ccc;
+  margin-bottom: 36px;
+}
+.single_post_content_quote_sign-start{
+  font-size: 66px;
+font-family: "HurmeGeometricSans1-SemiBold", sans-serif;
+color: #858585;
+line-height: 0.5;
+}
+.single_post_content_quote_sign-end{
+  font-size: 66px;
+font-family: "HurmeGeometricSans1-SemiBold", sans-serif;
+color: #858585;
+text-align: right;
+line-height: 0
+}
+.single_post_content_quote_author{
+  font-family: "HurmeGeometricSans1-LightObl", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+/**** /.single_post ****/
+
+/**** .related_post ****/
+.related_post{
+  padding-bottom: 50px;
+}
+.related_post_title {
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.related_post_title-h3 {
+  position: relative;
+  font-size: 40px;
+  font-family: "HurmeGeometricSans1-Light";
+}
+.related_post_title-h3::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 52%;
+  left: -120px;
+  background: black;
+  position: absolute;
+}
+.related_post_title-h3::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  top: 52%;
+  right: -120px;
+  background: black;
+  position: absolute;
+}
+.related_post_slider-wrapper{
+flex-wrap: nowrap;
+overflow: hidden;
+}
+.related_post_slider_post-img{
+  width: 100%;
+}
+.related_post_slider_post-title{
+  font-family: "HurmeGeometricSans1-Regular";
+	font-size: 20px;
+}
+.right_new_detail{
+	padding: 0 50px 0 20px;
+}
+.title_right_head{
+	font-family: "HurmeGeometricSans1-Regular";
+	font-size: 25px;
+	color: #212121;
+	text-transform: uppercase;	
+	padding: 30px 0 10px 0;
+	border-bottom: 1px solid #cacaca;
+}
+.item_new{
+	display: flex;
+	padding-top: 30px
+}
+.title_news_detail_right{
+	padding-left: 20px;
+	font-family: "HurmeGeometricSans1-Light";
+	font-size: 20px;
+	color: #212121;
+}
+.related_post_slider_post-description{
+	font-family: "HurmeGeometricSans1-Light";
+	font-size: 16px;
+	color:#636363; 
+  }
+@media (max-width: 1199.98px) {
+  
+}
+@media (max-width: 575.98px) {
+  .related_post_title-h3::before{
+    display: none;
+  }
+  .related_post_title-h3::after{
+    display: none;
+  }.single_post_content-p{
+    font-size: 14px;
+    line-height: 2;
+  }
+  .single_post_content_quote-p{
+    line-height: 2;
+  }
+  .related_post_slider_post-title{
+    text-align: center;
+  }
+  .related_post_slider_post-description{
+    text-align: center;
+	font-family: "HurmeGeometricSans1-Light";
+	font-size: 16px;
+	color:#636363; 
+  }
+}
+/**** /.related_post ****/
